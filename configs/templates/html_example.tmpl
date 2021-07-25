@@ -1,0 +1,9 @@
+<ul>
+% for a in ("one", "two", "three"):
+    <li>Item ${loop.index}: ${a}</li>
+% endfor
+</ul>
+% for name in names:
+  <li>Name: ${name}</li>
+%endfor
+<h1>${data['key_some']}</h1>
